@@ -1,0 +1,267 @@
+@media (min-width: @screen-sm-min) {
+.navbar-brand {
+  font-size: 16px;
+}
+
+}
+div.category {
+  background: url("http://coherent-technologies.in/assets/img/postCategory.png") no-repeat scroll right center #eee;
+  color: #186c84;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 1px;
+  padding-left: 5px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  max-width: 110px;
+  width: 110px;
+  text-align: left;
+}
+.email:link{
+	color:blue;
+}
+.homecon{
+	background-color: rgba(255, 255, 255, 0.3);
+}
+#desc{
+	background-color:#e3e3e3;
+}
+mark
+{
+	background-color:#ccc;
+}
+.padin{
+	padding-left:5px;
+}
+.padin h4{
+	text-align:left;
+	font-weight:600;
+}
+
+.borderbox{
+	border:1px solid transparent;
+}
+.borderbox:hover{
+	border:1px solid #000001;
+}
+.policy {
+  background-color: rgba(204, 204, 204, 0.4);
+  border: 1px solid #c4cfc4;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 25px;
+}
+.policy h3{
+	color:#00ff00;
+}
+.justtext{
+	text-align:justify;
+}
+.domain{
+  border: 5px solid #000001;
+  background:#ccc;
+  border-radius: 30px;
+  margin: 30px;
+  padding: 30px;
+  vertical-align: middle;
+}
+.domain:hover{
+  border: 5px solid #ccc;
+  background:#fff;
+  border-radius: 30px;
+  margin: 30px;
+  padding: 30px;
+  vertical-align: middle;
+}
+
+.accordion-heading{
+	padding:5px;
+	margin:1px;
+	border: 1px solid #73b4c7;
+}
+.accordion-heading h4 a{
+	text-decoration:none;
+}
+
+#technologies {
+    background-color: #e3e3e3;
+    display: block;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#reference{
+	background-color: ##afd4df;
+    display: block;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#technologies h3 {
+	color: #000001;
+}
+#technologies h4 {
+	color: #000001;
+}
+#technologies p, h1, h2, h3, h4  {
+	color: #000001;
+}
+body {
+  background-color: #f7fdfd;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #34495e;
+    padding-top: 50px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato";
+    font-weight: 300;
+    color: #333;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+	font-weight:400;
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #ccc;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background-image:url("http://coherent-technologies.in/assets/img/1.png");
+	padding-top: 40px;
+}
+
+#headerwrap h1 {
+	margin-top: 30px;
+	color: #000001;
+	font-size: 70px;
+	
+}
+
+#headerwrap h3 {
+	color: #000001;
+	font-size: 32px;
+	font-weight:400;
+}
+
+#headerwrap h5 {
+	color: #000001;
+	font-weight: 700;
+	text-align: left;
+}
+
+#headerwrap p {
+	text-align: left;
+	color: #000001
+}
+
+/* intro Wrap */
+
+#intro {
+	padding-top: 50px;
+	border-top: #bdc3c7 solid 5px;
+}
+
+#features {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#features .ac a{
+	font-size: 20px;
+}
+
+/* Showcase Wrap */
+
+#showcase {
+	display: block;
+	background-color: #e3e3e3;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#showcase h1 {
+	color: #000001;
+}
+
+#footerwrap {
+	background-color: #e3e3e3;
+	color: #000001;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	text-align: left;
+}
+
+#footerwrap h3 {
+	font-size: 28px;
+	color: #000001;
+}
+
+#footerwrap p {
+	color: #000001;
+	font-size: 18px;
+}
+
+/* Copyright Wrap */
+
+#c {
+	background: #004060;
+	padding-top: 15px;
+	text-align: right;
+}
+
+#c p {
+	color: #ccc;
+}
+
